@@ -8,8 +8,8 @@ var View = function (game, $el) {
 
 View.prototype.bindEvents = function () {
   // install a handler on the `li` elements inside the board.
-  this.$el.on("click", "li", (function (event) {
-    var $square = $(event.currentTarget);
+  this.$el.on("click", "li", (function (evnt) {
+    var $square = $(evnt.currentTarget);
     this.makeMove($square);
   }).bind(this));
 };
