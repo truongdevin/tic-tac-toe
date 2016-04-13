@@ -7,7 +7,7 @@ html, body, figure, figcaption, ul, li, h1 {
 }
 
 h1 {
-  /*display: block;*/
+  display: none;
   font-family: sans-serif;
   font-size: 77px;
   text-align: center;
@@ -17,8 +17,8 @@ li {
   background-color: lightgray;
   display: inline-block;
   /*border: 5px solid black;*/
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   float: left;
 }
 
@@ -33,22 +33,26 @@ li:nth-of-type(4), li:nth-of-type(5), li:nth-of-type(6) {
 }
 
 li:hover {
-  background-color: darkcyan;
+  /*background-color: darkcyan;*/
+  background-color: lightpink;
 
 }
 
 ul {
+  padding-top: 5%;
   margin: auto;
   position: relative;
-  width: 340px;
+  width: 640px;
 }
 
 .x, .o {
+  /*position: absolute;*/
+  /*bottom: 50%;*/
   background-color: darkgray;
   text-align: center;
   color: white;
   font-family: sans-serif;
-  font-size: 80px;
+  font-size: 160px;
 }
 
 body {
@@ -56,14 +60,9 @@ body {
 }
 
 /*.restart {
-  display: block;
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  right: 50%;
-  margin: auto;
-  padding: 40px;
-  width: 200px;
   background-color: teal;
-
+  margin: auto;
+  float: left;
+  position: relative;
+  width: 340px;
 }*/
